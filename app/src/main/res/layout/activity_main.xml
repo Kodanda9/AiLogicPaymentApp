@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25448a"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<!--  android:background="#25448a"-->
+    <com.ailogic.ailogicpayment.util.StepView
+        android:id="@+id/step_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        app:sv_animationType="All"
+        app:sv_stepPadding="12dp"
+        app:sv_stepsNumber="3"
+        app:sv_typeface="@font/iran_sans_mobile" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="@dimen/editTextHeight"
+       android:layout_weight="1">
+        <include layout="@layout/paymentviews"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding1">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="left|center_vertical">
+           <Button
+               android:id="@+id/back"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/draw_edittext_bg"
+               android:text="@string/btn_back"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="right|center_vertical">
+           <Button
+               android:id="@+id/submit"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Submit"
+               android:background="@drawable/draw_edittext_bg"
+               android:backgroundTint="@color/orange"
+               android:visibility="gone"
+               />
+
+           <Button
+               android:id="@+id/next"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/draw_edittext_bg"
+               android:text="@string/btn_next" />
+       </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>

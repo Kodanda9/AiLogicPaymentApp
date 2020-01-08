@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AiLogicPayment</string>
+    <string-array name="steps">
+        <item>Beginning</item>
+        <item>Intermediate\npage</item>
+        <item>End</item>
+        <item>Post step</item>
+    </string-array>
+    <string-array name="states">
+        <item>Select</item>
+        <item>MA</item>
+        <item>NH</item>
+        <item>NY</item>
+    </string-array>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+
+    <string name="title_activity_image_upload">ImageUploadActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="permission_rationale">Permissions</string>
+    <string name="permission_denied_explanation">permission_denied</string>
+    <string name="settings">settings</string>
+
+    <string name="action_today">Today</string>
+    <string name="action_day_view">Day view</string>
+    <string name="action_three_day_view">3 day view</string>
+    <string name="action_week_view">Week view</string>
+
+</resources>

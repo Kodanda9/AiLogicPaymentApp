@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="subscribeDuration">
+        <item>Select</item>
+        <item>1 Week</item>
+        <item>1 Month</item>
+        <item>1 Year</item>
+    </string-array>
+    <string-array name="expYear">
+        <item>Select</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+    </string-array>
+    <string-array name="monthsName">
+        <item>Select</item>
+        <item>Jab</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="accountTypes">
+        <item>Select</item>
+        <item>Checking</item>
+        <item>Saving</item>
+    </string-array>
+
+
+    <string-array name="billingDetails_ids_array" >
+        <item>etCeditCard</item>
+        <item>etCCV</item>
+        <item>spExpYear</item>
+        <item>spExpMonth</item>
+        <item>etNameOnCard</item>
+        <item>etBankRouting</item>
+        <item>etBankAccount</item>
+        <item>spAccType</item>
+    </string-array>
+    <string-array name="billingDetails_errors_array" >
+        <item>Please Enter Creditcard Number</item>
+        <item>Please Enter CVV</item>
+        <item>Please Select Year</item>
+        <item>Please Select Month</item>
+        <item>Please Enter Name</item>
+        <item>Please Enter Routing</item>
+        <item>Please Enter Account Number</item>
+        <item>Please Select Account Type</item>
+    </string-array>
+    <string-array name="billingDetails_comptypes_array" >
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>Spinner</item>
+        <item>Spinner</item>
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>Spinner</item>
+    </string-array>
+
+    <string-array name="billingAddress_ids_array" >
+        <item>etAddress</item>
+        <item>etCity</item>
+        <item>spState</item>
+        <item>etZip</item>
+    </string-array>
+    <string-array name="billingAddress_errors_array" >
+        <item>Please Enter Address</item>
+        <item>Please Enter City</item>
+        <item>Please Select State</item>
+        <item>Please Enter Zipcode</item>
+    </string-array>
+    <string-array name="billingAddress_comptypes_array" >
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>Spinner</item>
+        <item>EditText</item>
+    </string-array>
+
+    <string-array name="subscribe_ids_array" >
+        <item>spSubscrDuration</item>
+        <item>etNoOfUsers</item>
+        <item>etPerUserFee</item>
+        <item>etDiscountAmount</item>
+        <item>etDate</item>
+    </string-array>
+    <string-array name="subscribe_errors_array" >
+        <item>Please Select Duration</item>
+        <item>Please Enter Number Of Users </item>
+        <item>Please Enter User Fees</item>
+        <item>Please Enter Discount Amount</item>
+        <item>Please Select Date</item>
+    </string-array>
+    <string-array name="subscribe_comptypes_array" >
+        <item>Spinner</item>
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>EditText</item>
+    </string-array>
+
+
+
+
+
+
+</resources>
